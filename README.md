@@ -8,13 +8,9 @@
 
 import time
 import random 
-
 from multiprocessing import Process
-
 from multiprocessing import Condition,Manager 
-
 from multiprocessing import Queue
-
 from Tkinter import *
 
 k = 10
@@ -23,13 +19,11 @@ lec_espera = 0
 es_espera = 0
 
 def esc(id,condition,lista,es_espera,lec_espera,queue):
-
  for v in range(k):
      queue.put((id,"piensa",v))		
      print 'Escritor piensa en lo que vas a escribir',v
      condition.acquire()
-  
-    while lista[1]==1 and lista[0]>0:
+     while lista[1]==1 and lista[0]>0:
 	    queue.put((id,"espera",v))
 	    print "Escritor espera"
 	    time.sleep(random.random()/2)
