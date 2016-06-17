@@ -61,7 +61,7 @@ def lec(id,condition,lista,es_espera,lec_espera,queue):
 
 	for v in range(k):
      
-    condition.acquire()
+    	condition.acquire()
     
     while lista[0] > 0 :
 	    queue.put((id,"espera",v))
