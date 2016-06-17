@@ -25,6 +25,7 @@ lec_espera = 0
 es_espera = 0
 
 def esc(id,condition,lista,es_espera,lec_espera,queue):
+ 
  for v in range(k):
      queue.put((id,"piensa",v))		
      print 'Escritor piensa en lo que vas a escribir',v
