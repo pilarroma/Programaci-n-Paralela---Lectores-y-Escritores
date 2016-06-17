@@ -64,6 +64,7 @@ def lec(id,condition,lista,es_espera,lec_espera,queue):
       condition.acquire()
     
       while lista[0] > 0 :
+	   
 	    queue.put((id,"espera",v))
       	    print "lector esperando"
      	    time.sleep(random.random()/2)
