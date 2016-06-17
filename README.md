@@ -4,8 +4,8 @@
 
 *Utilizacion de Tkinter para crear una interfaz gráfica en la que se ve a los lectores y escritores interactuar*
 
-*NOTA PARA PYTHON: Cuidado con la indentacion al pasar el programa a python, los espacios pueden variar*
-**--------------------------------------------------------------------------------------------------------------------------------------**
+*Nota para Python: Cuidado con la indentacion al pasar el programa a python, los espacios pueden variar*
+**--------------------------------------------------------------------------------------------------------------------------------**
 
 import time
 
