@@ -63,13 +63,12 @@ def lec(id,condition,lista,es_espera,lec_espera,queue):
      
       condition.acquire()
     
-    while lista[0] > 0 :
+      while lista[0] > 0 :
 	    queue.put((id,"espera",v))
-      print "lector esperando"
-      time.sleep(random.random()/2)
-	    
+            print "lector esperando"
+      	    time.sleep(random.random()/2)
 	    lec_espera += 1	
-      condition.wait()
+      	    condition.wait()
       
       lista[1] = lista[1] + 1 #numero de lectores
       lec_espera -= 1
