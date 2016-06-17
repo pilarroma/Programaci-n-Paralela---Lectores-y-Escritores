@@ -1,8 +1,8 @@
 *ProgramacionParalela --- Lectores-y-Escritores*
 
-*Programa en Python en el que se plantea una solución al conocido problema de los Lectores y Escritores*
-
+*Programa en Python en el que se plantea una solución al conocido problema de los Lectores y Escritores\n*
 *Utilizacion de Tkinter para crear una interfaz gráfica en la que se ve a los lectores y escritores interactuar*
+
 *------------------------------------------------------------------------------------------------------------------*
 
 import time
