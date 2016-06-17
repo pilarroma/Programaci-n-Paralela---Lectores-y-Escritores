@@ -21,6 +21,7 @@ from Tkinter import *
 k = 10
 
 lec_espera = 0
+
 es_espera = 0
 
 def esc(id,condition,lista,es_espera,lec_espera,queue):
