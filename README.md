@@ -57,7 +57,8 @@ def esc(id,condition,lista,es_espera,lec_espera,queue):
      condition.release() 	 	
      
 def lec(id,condition,lista,es_espera,lec_espera,queue):
-  for v in range(k):
+
+   for v in range(k):
     condition.acquire()
     
     while lista[0] > 0 :
