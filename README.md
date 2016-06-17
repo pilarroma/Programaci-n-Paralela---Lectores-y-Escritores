@@ -162,7 +162,7 @@ if __name__=="__main__":
 	def ejec_end():
 	  queue.put("quit")
 
-  # Disenyo del boton end
+  	# Disenyo del boton end
   
 	end = Button(frame, text = "End", command = ejec_end)
 	end.grid(row = 2,column = 2)
