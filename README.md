@@ -106,7 +106,8 @@ if __name__=="__main__":
 	
 	NLectores = 4
 	NEscritores = 6
-  color = ["red","green","blue","grey","yellow","black"]
+  
+        color = ["red","green","blue","grey","yellow","black"]
 	
 	obj.append(canvas.create_text(280,20,text = "BIBLIOTECA"))
 	obj.append(canvas.create_rectangle(180,40,400,300,fill = "white"))
